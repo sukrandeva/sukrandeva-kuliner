@@ -1,29 +1,31 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial, san-serif;
+	font-family: Arial, sans-serif;
 	
 }
+
 body {
-	background:lightgrey;
+	background: lightgrey;
 }
 
 .main-body {
 	max-width: 1080px;
 	background:white;
-	padding:15px;
+	padding: 15px;
 	margin: 20px auto;
 	overflow: hidden;
 }
 
-header{
+header {
 	background: crimson; 
 	color: white;
 	padding: 20px;
+	text-align: center;
 }
 	
-header h2{
+header h2 {
 	margin-bottom: 10px;
 	font-size:38px;
 }
@@ -34,59 +36,59 @@ header h2{
 	padding: 0;
 	overflow: hidden;
 	background: orange;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	
 }
 
-.navigasi li{
-	float:left;
+.navigasi li {
+	float: left;
 }
 
-.navigasi li a{
-	color:white;
-	text-align:center;
+.navigasi li a {
+	color: white;
+	text-align: center;
 	padding: 10px 20px;
-	display:block;
+	display: block;
 	text-decoration: none;
 }
 
-.navigasi li a:hover{
+.navigasi li a:hover {
 	background: crimson;
 	transition-duration: 2s;
 }
 
-.banner{
-	margin-bottom:15px;
+.banner {
+	margin-bottom: 15px;
 }
-.banner img{
+.banner img {
 	width: 100%;
 	height: 300px;
-	display:block;
+	display: block;
 }
 
-footer{
-	background:crimson;
+footer {
+	background: crimson;
 	color: white;
 	text-align: center;
 	padding: 15px;
 	clear: both;
 }
 
-.left-sidebar{
-	width:250px;
+.left-sidebar {
+	width: 250px;
 	margin-right: 10px;
-	float:left;
+	float: left;
 	
 }
-.card{
+.card {
 	border: 1px solid grey;
 	padding: 10px;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
 
-.card h3{
-	background:crimson;
+.card h3 {
+	background: crimson;
 	color: white;
 	text-align: center;
 	padding: 10px;
@@ -94,36 +96,36 @@ footer{
 }
 
 .tombol {
-	text-decoration:none;
-	padding:10px;
-	width:120px;
-	color:white;
-	text-align:center;
-	display:block;
+	text-decoration: none;
+	padding: 10px;
+	width: 120px;
+	color: white;
+	text-align: center;
+	display: block;
 	margin-top: 12px;
 	border-radius: 5px;
 }
 
-.tombol-hijau{
+.tombol-hijau {
 	background: green;
 }
 
-.tombol-hijau:hover{
+.tombol-hijau:hover {
 	background: darkorange;
 	transition-duration: 1s;
 }
 
-.tombol-kuning{
+.tombol-kuning {
 	background: darkorange;
 }
 
-.tombol-kuning:hover{
+.tombol-kuning:hover {
 	background: green;
 	transition-duration: 1s;
 }
 
-.main-content{
-	width:530px;
+.main-content {
+	width: 530px;
 	margin-right: 10px;
 	float:left;
 }
@@ -135,10 +137,10 @@ footer{
     margin-bottom: 10px;
 }
 
-.card img{
-	display:block;
-	width:100%;
-	margin-bottom:10px;
+.card img {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .right-sidebar {
@@ -146,7 +148,7 @@ footer{
 	float: left;
 }
 
-.berita ul{
+.berita ul {
     list-style-type: none;
 }
 
